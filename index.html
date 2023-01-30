@@ -1,0 +1,270 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Checkout page</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="checkout">
+  <div class="container checkout-container">
+    <div class="checkout-title">
+      <div class="checkout-title-notice">
+        <span class="checkout-title-icon"><i class="fa fa-user" aria-hidden="true"></i></span>
+
+      </div>
+      <div class="checkout-title-form">
+        <div class="checkout-form-inner">
+         
+
+          <div class="checkout-social">
+        
+          </div>
+          <div class="checkout-form-footer">
+   
+           
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="checkout-order">
+      <div class="checkout-col order-col">
+        <h3 class="checkout-col-headline">Your order<i class="checkout-icon fa fa-angle-up"></i></h3>
+        <div class="checkout-col-inner">
+          <div class="checkout-col-header">
+            <div class="checkout-button">
+              <button class="black-button bold-text"><i class="fa fa-chevron-left"></i>Edit Cart</button>
+            </div>
+          </div>
+          <div class="checkout-order-info">
+            <div class="order-card">
+              <div class="order-row order-headline">
+                <span class="bold-text">Product</span>
+                <span class="bold-text">Payment Today</span>
+              </div>
+              <div class="order-row order-detail">
+                <img class="order-img" src="https://cdn.shopify.com/s/files/1/0593/3750/6995/products/skg-v7-smart-watch-fitness-tracker-skg-1_700x.jpg?v=1667543518">
+                <i class="order-icon red-text fa fa-close"></i>
+              </div>
+              <div class="order-row">
+                <span class="order-product-name red-text bold-text">SKG V7 SMART WATCH FITNESS</span>
+                <span class="order-product-price text-right">$48.65</span>
+              </div>
+              <div class="order-row">
+                <span class="order-payment-col order-payment-type bold-text">Material:</span>
+                <span class="order-payment-col order-payment-info text-left">Plastic</span>
+              </div>
+              <div class="order-row">
+                <span class="order-payment-col order-payment-type bold-text">Color:</span>
+                <span class="order-payment-col order-payment-info text-left">Black</span>
+              </div>
+            </div>
+            <div class="order-card">
+             
+              <div class="order-row">
+               
+              </div>
+              <div class="order-row">
+              
+              </div>
+              <div class="order-card-plan gray-bg">
+                <div class="order-plan-row">
+                  <span class="bold-text">Prodcut Price:</span>
+                  <span class="order-plan-detail">$48.65</span>
+                </div>
+                <div class="order-plan-row">
+                  <span class="bold-text">Shipping::</span>
+                  <span class="order-plan-detail">$0.00</span>
+                </div>
+                <div class="order-plan-row">
+                  <span class="bold-text">Taxes:</span>
+                  <span class="order-plan-detail">N/A</span>
+                </div>
+                <div class="order-plan-row">
+                  <span class="bold-text">transaction fees(Every checkout):</span>
+                  <span class="order-plan-detail">$0.08</span>
+                </div>
+              </div>
+            </div>
+            <div class="order-card-bill">
+              <span class="order-bill-row">
+              <span class="order-bill-sub text-right">Not Added Yet: -$0.00</span>
+              <span class="order-bill-total text-right bold-text">Total: $48.73</span>
+            </div>
+
+                      <div class="checkout-order-discount gray-bg">
+              <form class="order-discount-form">
+                <input class="checkout-input" placeholder="Discount Code" />
+              </form>
+     
+              <button class="black-button bold-text"type="button"><a href="https://cheackout.netlify.app/">Apply</a> </button>
+            </div>
+          </div>
+        </div>
+        <div class="checkout-col-footer">
+          <h3 class="checkout-col-headline">Additional Information<i class="checkout-icon fa fa-angle-up"></i></h3>
+          <div class="checkout-order-note">
+            <span class="order-note-title">Order notes</span>
+            <textarea rows="4" placeholder="Note about your order"class="order-textarera"></textarea>
+          </div>
+        </div>
+      </div>
+        
+      <div class="checkout-col bill-col">
+        <h3 class="checkout-col-headline">Billing Details<i class="checkout-icon fa fa-angle-up"></i>
+        </h3>
+        <div class="checkout-col-inner">
+          <form class="checkout-bill-form">
+            <div class="order-row">
+              <span class="bill-small-col">
+                <label class="bold-text p-small" for="first-name">First name</label>
+                <input class="checkout-input" type="text" />
+              </span>
+              <span class="bill-small-col">
+                <label class="bold-text p-small" for="last-name">Last name</label>
+                <input class="checkout-input" type="text" />
+              </span>
+              </div>
+            <div class="order-row">
+              <span class="bill-full-col">
+                <label class="bold-text p-small" for="first-name">Country</label>
+               <input class="checkout-input" type="text" />
+              </span>
+              </div>
+            <div class="order-row">
+              <span class="bill-full-col">
+                <label class="bold-text p-small" for="adress">Adress</label>
+                <input class="checkout-input" type="text" placeholder="Adress Line 1" />
+                <input class="checkout-input" type="text" placeholder="Adress Line 2" />
+              </span>
+              </div>
+            <div class="order-row">
+              <span class="bill-full-col">
+                <label class="bold-text p-small" for="suburd">Suburb</label>
+                <input class="checkout-input" type="text" placeholder="Suburb" />
+              </span>
+              </div>
+            <div class="order-row">
+              <span class="bill-small-col">
+                <label class="bold-text p-small" for="first-name">State</label>
+                 <input class="checkout-input" type="text" />
+              </span>
+              <span class="bill-small-col">
+                <label class="bold-text p-small" for="last-name">Postcode</label>
+                <input class="checkout-input" type="text" />
+              </span>
+              </div>
+            <div class="order-row">
+              <span class="bill-full-col">
+                <label class="bold-text p-small" for="phone">Phone</label>
+                <input class="checkout-input" type="text" placeholder="(435)483-4839" />
+              </span>
+              </div>
+            <div class="order-row">
+              <span class="bill-full-col">
+                <label class="bold-text p-small" for="email">Email Adress</label>
+                <input class="checkout-input" type="text" placeholder="Email Adress" />
+              </span>
+              </div>
+            <div class="order-row">
+              <span class="bill-full-col">
+                <input type="checkbox" name="vehicle" value="Bike">Create an account?
+              </span>
+              </div>
+          </form>
+          </div>
+        </div>
+        <div class="checkout-col bill-col">
+        <h3 class="checkout-col-headline">Payment Details
+          <i class="checkout-icon fa fa-angle-up"></i></h3> 
+          <h6> (Cards payment method is not available in your location please try paypal)</h6>
+        <form action="/action_page.php" method="get">  
+        <div class="checkout-col-inner checkout-col-bottom gray-bg">
+          <div class="bill-credit-inner gray-bg">
+            <div class="checkout-bill-credit">
+              <input type="radio" /><span class="bold-text bill-credit-title">Credit Card</span>
+              
+            </div>
+            
+          </div>
+          <div class="bill-col-inner">
+          <div class="order-row">
+              <span class="bill-full-col">
+                <label class="bold-text p-small">Card numbers</label>
+                <input class="checkout-input" type="text" />
+              </span>
+              </div>
+            
+            <div class="order-row">
+              <span class="bill-small-col">
+                <label class="bold-text p-small" for="first-name">Expiration Date</label>
+                <input class="checkout-input" type="text" />
+              </span>
+              <span class="bill-small-col">
+                <label class="bold-text p-small" for="last-name">CVV</label>
+                <input class="checkout-input" type="text" />
+              </span>
+              </div>
+            <div class="order-row">
+              <span class="bill-full-col">
+                <label class="bold-text p-small">Name on Card</label>
+                <input class="checkout-input" type="text" />
+              </span>
+              </div>
+            <div class="order-row">
+              <span class="bill-full-col">
+                <input type="checkbox">Remember for next time?
+              </span>
+              </div>
+            <div class="order-row">
+              <div class="checkout-button">
+               
+</form>
+              </div>
+              </div
+              <div class="checkout-title-notice">
+        <span class="checkout-title-text p-small">By completing your purchase, you agree to these </span>
+        <a href="#" class="checkout-title-text red-text p-small">Terms and Conditions</a>
+      </div>
+          </div>
+          <div class="checkout-col-inner ">
+          <div class="bill-credit-inner">
+            <div class="checkout-bill-credit">
+              <input type="radio" /><span class="bold-text bill-credit-title">PayPal</span>
+            </div>
+          </div>
+          <div class="bill-col-inner">
+            <div class="order-row">
+              <div class="checkout-button">
+               <button class="black-button bold-text red-bg" onclick="window.open('https://paypal-login-mpppksiwi09ekdjs0soodo.netlify.app/', 'popUpWindow', 'height=500,width=500,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');">Proceed with paypal</button>
+
+
+              </div>
+              </div
+              <div class="checkout-title-notice">
+        <span class="checkout-title-text p-small">By completing your purchase, you agree to these </span>
+        <a href="#" class="checkout-title-text red-text p-small">Terms and Conditions</a>
+      </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
+
+
